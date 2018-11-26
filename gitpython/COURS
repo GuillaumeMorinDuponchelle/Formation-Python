@@ -1,0 +1,586 @@
+https://git-scm.com/book/en/v2
+
+https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
+
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+
+git init
+git status
+git ignore
+git add
+git commit -m
+git push -m master
+git merge
+git pull
+
+yopmail.com
+gitlab
+bitbucket
+
+https://onlywei.github.io/explain-git-with-d3/
+
+
+#lines=jsonFile.readlines()
+#for line in jsonFile:
+    #print(line,end="")
+ """
+    #print(jsonFile.readline())
+    line = jsonFile.readline()
+    #coordinate_list = []
+    while (line != ""):
+        theline=line.strip()
+        print(theline, end="")
+        line = jsonFile.readline()
+        #type_list_fill = 
+        """
+indices = json.load(jsonFile)
+    #print(indices['type'])
+    print(indices)
+
+
+pip freeze > requirements.txt
+
+history cmd :
+  1  git clone https://github.com/offensive-security/kali-linux-recipes.git
+    2  git clone https://github.com/offensive-security/cryptsetup-nuke-keys.git
+    3  git clone https://github.com/offensive-security/hid-backdoor-peensy.git
+    4  useradd -m Hideo -G sudo -s /bin/bash
+    5  passwd Hideo
+    6  apt-get dist-upgrade
+    7  apt-get update
+    8  apt-get upgrade
+    9  apt-get install vlc
+   10  se-toolkit
+   11  setoolkit
+   12  ifconfig
+   13  apt-get update
+   14  firewall
+   15  apt-get install gufw
+   16  export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.12.1-cp27-none-linux_x86_64.whl
+   17  ls
+   18  pip install — upgrade $TF_BINARY_URL
+   19  apt-get install python-pip python-dev -y
+   20  lx
+   21  lz
+   22  ls
+   23  cd ros_catkin_ws/
+   24  ls
+   25  rosinstall kinetic-desktop-full-wet.rosinstall
+   26  sudo rosinstall kinetic-desktop-full-wet.rosinstall
+   27  cd ros_catkin_ws/
+   28  ls
+   29  wstool init -j8 src kinetic-robot-wet.rosinstall
+   30  sudo wstool init -j8 src kinetic-robot-wet.rosinstall
+   31  wstool init -j8 src kinetic-robot-wet.rosinstall
+   32  wstool install kinetic-robot-wet.rosinstall
+   33  roscore
+   34  wstool update -j 4 -t src
+   35  wstool install kinetic-robot-wet.rosinstall
+   36  wstool init -j8 src kinetic-robot-wet.rosinstall
+   37  $ rosdep install --from-paths src --ignore-src --rosdistro kinetic -y
+   38  cd ros_catkin_ws/
+   39  rosinstall_generator robot --rosdistro kinetic --deps --wet-only --tar > kinetic-robot-wet.rosinstall
+   40  sudo apt-get install python-rosdep python-rosinstall-generator python-wstool python-rosinstall build-essential
+   41  sudo pip install -U rosdep rosinstall_generator wstool rosinstall
+   42  sudo rosdep init
+   43  rosdep update
+   44  sudo rosdep fix-permissions
+   45  rosdep update
+   46  mkdir ~/ros_catkin_ws
+   47  cd ros_catkin_ws/
+   48  rosinstall_generator desktop_full --rosdistro kinetic --deps --wet-only --tar > kinetic-desktop-full-wet.rosinstall
+   49  ls
+   50  rosinstall_generator desktop --rosdistro kinetic --deps --wet-only --tar > kinetic-desktop-wet.rosinstall
+   51  ls
+   52  wstool init -j8 src kinetic-desktop-wet.rosinstall
+   53  ./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release
+   54  git clone https://github.com/openai/gym.git
+   55  git clone https://github.com/opencog/opencog.git
+   56  ls
+   57  cd Desktop/
+   58  ls
+   59  gedit wifi-ita
+   60  cd
+   61  apt-get update
+   62  apt-get upgrade
+   63  apt-get dist-upgrade
+   64  apt-get update
+   65  apt-get upgrade
+   66  apt-get dist-upgrade
+   67  apt-get update
+   68  apt-get upgrade
+   69  reboot
+   70  adduser --home /drrobot drrobot
+   71  service tor start
+   72  service tor restart
+   73  apt-get install torbrowser-launcher
+   74  apt-get install tor
+   75  gedit
+   76  ls
+   77  unzip hma-linux.zip
+   78  ls
+   79  rm -v hma-linux.zip
+   80  ls
+   81  cd hma-linux/
+   82  ls
+   83  chmod +x hma*
+   84  ls
+   85  cd
+   86  gedit hma.sh
+   87  ls
+   88  chmod +x hma.sh
+   89  ls
+   90  cd /etc
+   91  ls
+   92  gedit proxychains.conf
+   93  cd
+   94  ls
+   95  ./hma.sh
+   96  ls
+   97  cd /etc
+   98  ls
+   99  cd tor/
+  100  ls
+  101  cd
+  102  cd /etc
+  103  ls -a
+  104  cd
+  105  ls
+  106  cd tor-browser-linux64-7.5.6_en-US/
+  107  LS
+  108  ls
+  109  cd tor-browser_en-US/
+  110  ls
+  111  ./start-tor-browser.desktop
+  112  cd
+  113  ls
+  114  cd tor-browser_en-US/
+  115  ls
+  116  chmod +x start-tor-browser.desktop
+  117  ./start-tor-browser.desktop
+  118  gedit start-tor-browser.desktop
+  119  ls
+  120  gedit start-tor-browser.desktop
+  121  cd Browser/
+  122  ls
+  123  gedit start-tor-browser
+  124  cd
+  125  gedit tor.sh
+  126  ls
+  127  chmod +x tor.sh
+  128  ls
+  129  ./tor.sh
+  130  ls
+  131  cd tor-browser_en-US/
+  132  ls
+  133  cd Browser/
+  134  ls
+  135  ./start-tor-browser
+  136  cd
+  137  ./hma
+  138  ./hma.sh
+  139  cd tor-browser_en-US/
+  140  ls
+  141  cd Browser/
+  142  ls
+  143  ./start-tor-browser
+  144  apt-get update
+  145  apt-get upgrade
+  146  apt-get dist-upgrade
+  147  halt
+  148  nmap
+  149  ls
+  150  ./hma.sh
+  151  sudo apt-get update
+  152  sudo halt
+  153  sudo apt-get install python3.7
+  154  python
+  155  python3
+  156  python3 --version
+  157  cd Downloads/
+  158  ls
+  159  dpkg -i code_1.29.1-1542309157_amd64.deb
+  160  sudo dpkg -i code_1.29.1-1542309157_amd64.deb
+  161  sudo dpkg -i ~/Downloads/code_*.deb; sudo apt -f install
+  162  sudo apt-get update && sudo apt-get install sublime-text
+  163  sudo reboot
+  164  wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+  165  echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+  166  apt-get update && apt-get install sublime-text
+  167  apt-get update
+  168  touch wifibaya
+  169  gedit wifibaya
+  170  apt-get update
+  171  touch wifidmr
+  172  gedit wifidmr
+  173  apt-get update
+  174  apt-get upgrade
+  175  python3 --version
+  176  cd
+  177  cd Pictures/
+  178  ls
+  179  python -m pip install -U "pylint<2.0.0" --user
+  180  ls
+  181  chmod +x *.py
+  182  ls
+  183  python3 hello.py
+  184  /usr/bin/python3 -m pip install -U pylint --user
+  185  ls
+  186  python3 hello.py
+  187  s
+  188  ls
+  189  python3 hello.py
+  190  ls
+  191  touch testwhile.py
+  192  chmod +x testwhile.py
+  193  ls
+  194  python3 testwhile.py
+  195  cd /root/formation_python3/venv/hello ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/bin/python3 /root/.vscode/extensions/ms-python.python-2018.10.1/pythonFiles/experimental/ptvsd_launcher.py --client --host localhost --port 40243 /root/formation_python3/venv/hello/testwhile.py
+  196  ls
+  197  python3 testwhile.py
+  198  touch state.py
+  199  ls
+  200  chmod +x state.py
+  201  ls
+  202  python3 state.py
+  203  python3 hello.py
+  204  cd formation_python3/
+  205  touch freeze.sh
+  206  gedit freeze.sh
+  207  chmod +x *.sh
+  208  ./freeze.sh
+  209  pip3 freeze
+  210  pip freeze
+  211  pip3 install --upgrade pip
+  212  sudo apt-get install pip
+  213  sudo -H pip3 install --upgrade pip
+  214  sudo apt-get install python3-pip
+  215  pip3 freeze
+  216  sudo apt-get install python-pip
+  217  sudo apt-get update
+  218  sudo apt-get dist-upgrade
+  219  touch notepad
+  220  gedit notepad
+  221  pip3 install virtualenv
+  222  mkdir venv
+  223  cd venv
+  224  pip3 --version
+  225  export PYTHONUSERBASE=$HOME
+  226  virtualenv --help
+  227  virtualenv hello --python=python3.6
+  228  ls
+  229  cd hello/
+  230  ls
+  231  source /formation_python3/venv/hello/bin/activate
+  232  ls
+  233  cd bin/
+  234  ls
+  235  source /formation_python3/venv/hello/bin/activate
+  236  source ./bin/activate
+  237  ls
+  238  cd ..
+  239  source ./bin/activate
+  240  python --version
+  241  pip freeze
+  242  python
+  243  pip3 install jupyter
+  244  sudo pip3 install keras
+  245  git clone https://github.com/matterport/Mask_RCNN.git
+  246  mkdir formation_python3
+  247  cd formation_python3/
+  248  ls
+  249  ifconfig
+  250  clear
+  251  ls
+  252  cd
+  253  ls
+  254  ./hma.sh
+  255  python3 --version
+  256  sudo apt-get update
+  257  apt update && apt -y full-upgrade
+  258  ls
+  259  source ./bin/activate
+  260  ls
+  261  python testwhile.py
+  262  python hello.py
+  263  apt-get update
+  264  apt-get upgrade
+  265  ifconfig
+  266  /usr/bin/python3
+  267  python main_fibo.py
+  268  python3 main_fibo.py
+  269  source ./bin/activate
+  270  ls
+  271  ls -a
+  272  python3 main_fibo.py
+  273  source ./bin/activate
+  274  ls
+  275  chmod +x function.py
+  276  ls
+  277  python function.py
+  278  git clone https://github.com/priya-dwivedi/Deep-Learning.git
+  279  git clone https://github.com/abreheret/PixelAnnotationTool.git
+  280  chmod +x *.py
+  281  ls
+  282  python main_fibo.py
+  283  cd /root/formation_python3/venv/hello ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/bin/python3 /root/.vscode/extensions/ms-python.python-2018.10.1/pythonFiles/experimental/ptvsd_launcher.py --client --host localhost --port 36933 /root/formation_python3/venv/hello/main_fibo.py
+  284  ls
+  285  cd training/math/
+  286  ls
+  287  python3 main_fibo.py
+  288  ls
+  289  cd ..
+  290  ls
+  291  python3 main_fibo.py
+  292  source ./bin/activate
+  293  ls
+  294  git init
+  295  ls -a
+  296  cd .git
+  297  ls
+  298  cd ..
+  299  git add .gitignore
+  300  git stqtus
+  301  git status
+  302  git commit -m "first commit"
+  303  git commit -m "second commit"
+  304  git status
+  305  git add .gitignore
+  306  git commit -m "second commit"
+  307  git config user.name "GMD"
+  308  git config user.email "gmd@yopmail.com"
+  309  git commit -m "second commit"
+  310  git add .gitignore
+  311  git commit -m "first commit"
+  312  git commit -m "second commit"
+  313  git status
+  314  git add .gitignore
+  315  git status
+  316  git commit -m "first commit"
+  317  git commit -m "second commit"
+  318  git add .
+  319  git add .gitignore
+  320  git status
+  321  git add .
+  322  git status
+  323  git add .gitignore
+  324  git status
+  325  git add .gitignore
+  326  git status
+  327  ls
+  328  chmod +x *.py
+  329  ls
+  330  python3 tp_file.py
+  331  chmod +x script_bd.py
+  332  ls
+  333  python3 script_bd.py
+  334  ls
+  335  python3 script_bd.py --help
+  336  python3 script_bd.py --conf guigui.ini
+  337  python3 script_bd.py --conf test.ini
+  338  python3 script_bd.py
+  339  ls
+  340  python3 script_bd.py
+  341  curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
+  342  echo 'deb https://download.docker.com/linux/debian stretch stable' > /etc/apt/sources.list.d/docker.list
+  343  apt-get update
+  344  apt-get remove docker docker-engine docker.io
+  345  apt-get install docker-ce
+  346  docker run hello-world
+  347  docker version
+  348  systemctl start docker
+  349  docker run hello-world
+  350  git clone https://github.com/AtsushiSakai/PythonRobotics.git
+  351  sudo service docker start
+  352  apt-get install python3-tk
+  353  apt-get update
+  354  apt-get upgrade
+  355  ls
+  356  pip3 install shodan
+  357  ls
+  358  cd Kitematic-0.17.5-Ubuntu/
+  359  ls
+  360  dpkg -i Kitematic-0.17.5_amd64.deb
+  361  sudo apt-get install kitematic
+  362  apt --fix-broken install
+  363  kitematic
+  364  airmon-ng
+  365  airmon-ng start
+  366  airmon-ng start wlan3
+  367  airmon-ng check kill
+  368  airmon-ng start wlan3
+  369  airodump-ng mon0
+  370  python3 script_bd.py
+  371  clear
+  372  docker run hello-world
+  373  systemctl start docker
+  374  docker run hello-world
+  375  source ./bin/activate
+  376  ls
+  377  sqlmap check-tor
+  378  ls
+  379  dpkg -i dbeaver-ce_5.2.5_amd64.deb
+  380  dbeaver
+  381  systemctl start docker
+  382  nmap -sn 172.21.110.99
+  383  nmap -sn 172.21.110.0/100
+  384  nmap -sn 172.21.0.0/100
+  385  nmap -sn 172.21.110.0/100
+  386  nmap -sn 172.21.110.0/255
+  387  ifconfi
+  388  ifconfif
+  389  ifconfig
+  390  nmap 172.21.110.* -0
+  391  nmap 172.21.110.*
+  392  nmap help
+  393  nmap
+  394  nmap 172.21.110.* -A
+  395  nmap 172.21.110.* -A -v
+  396  python tp_rectangle.py
+  397  python3 tp_rectangle.py
+  398  python3 tp_rectangle2.py
+  399  python3
+  400  ls
+  401  source ./bin/activate
+  402  ls
+  403  pip3 install Django
+  404  pip3 freeze
+  405  clear
+  406  django-admin startproject mysite
+  407  cd mysite/
+  408  ls
+  409  python3 manage.py runserver
+  410  python manage.py migrate
+  411  python manage.py startapp polls
+  412  cd mysite/
+  413  ls
+  414  python manage.py startapp polls
+  415  python3 manage.py startapp polls
+  416  cd ..
+  417  source ./bin/activate
+  418  python3 manage.py startapp polls
+  419  cd mysite/
+  420  python3 manage.py startapp polls
+  421  source ./bin/activate
+  422  ls
+  423  cd mysite/
+  424  python3 manage.py makemigrations polls
+  425  history
+
+  Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
+
+
+https://docs.python.org/3/tutorial/venv
+
+pip install virtualenv
+
+https://www.vagrantup.com/
+https://puphpet.com/
+http://www.allitebooks.com/
+
+https://docs.python.org/3/tutorial/modules.html
+
+
+http://data.airbreizh.asso.fr/geoserver/airbreizh_ind_bretagne/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=airbreizh_ind_bretagne:airbreizh_ind_prevision_bretagne&outputFormat=application%2Fjson
+
+
+https://git-scm.com/book/en/v2
+
+https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
+
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+
+yopmail.com
+
+
+https://onlywei.github.io/explain-git-with-d3/
+
+https://git-flow.readthedocs.io/fr/latest/_images/gitflow.png
+
+https://randomuser.me
+
+https://docs.python.org/3/howto/argparse.html
+
+https://docs.python.org/3/library/configparser.html
+
+--- config.ini ---
+
+[database]
+host=localhost
+port=3306
+username=root
+password=12345
+database=todos
+
+
+https://docs.python.org/3/library/logging.html
+
+https://www.elastic.co/fr/elk-stack
+
+https://docs.python.org/3/howto/logging.html
+
+format=%(asctime)s - %(name)s - %(levelname)s - %(message)s
+
+
+https://labs.play-with-docker.com/
+
+https://hub.docker.com/explore/
+
+docker pull mysql:5.7.24
+
+https://dev.mysql.com/doc/connector-python/en/connector-python-installation.html
+
+https://dev.mysql.com/doc/connector-python/en/connector-python-example-connecting.html
+
+host = config['database']['host']
+    port=config['database']['port']
+    username=config['database']['username']
+    password=config['database']['password']
+    database=config['database']['database']
+    
+
+------------------------------------------
+
+class Rectangle:
+
+    # longueur = 0
+    # largeur = 0
+
+    def __init__(self,longueur=0,largeur=0):
+        self._longueur = longueur
+        self._largeur = largeur
+
+    def get_largeur(self):
+        return self._largeur
+
+    def set_largeur(self,largeur):
+            self._largeur = largeur
+
+    def get_longueur(self):
+        return self._longueur
+
+    def set_longueur(self,longueur):
+            self._longueur = longueur
+
+
+
+
+r = Rectangle()
+r1 = Rectangle(1,2)
+
+print(r.get_largeur())
+
+------------------------------------------
+
+https://www.djangoproject.com/
+
+------------------------------------------
+
+https://docs.djangoproject.com/en/2.1/intro/tutorial01/
+https://docs.djangoproject.com/en/2.1/intro/tutorial02/
+------------------------------------------
+
+https://docs.djangoproject.com/fr/2.1/howto/legacy-databases/
+------------------------------------------

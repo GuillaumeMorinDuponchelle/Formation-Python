@@ -1,0 +1,152 @@
+{
+    "type": "FeatureCollection",
+    "totalFeatures": 7,
+    "features": [
+        {
+            "type": "Feature",
+            "id": "airbreizh_ind_prevision_bretagne.fid-50ebcc71_167351cf76d_-1105",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147878.22420659,
+                    6837175.79403704
+                ]
+            },
+            "geometry_name": "the_geom",
+            "properties": {
+                "date": "2018-11-21T09:00:00Z",
+                "valeur": 3,
+                "qualificatif": "Bon",
+                "couleur": "#99E600",
+                "code_zone": "2",
+                "lib_zone": "Brest Métropole"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "airbreizh_ind_prevision_bretagne.fid-50ebcc71_167351cf76d_-1104",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    172753.63056731,
+                    6795400.54381628
+                ]
+            },
+            "geometry_name": "the_geom",
+            "properties": {
+                "date": "2018-11-21T09:00:00Z",
+                "valeur": 3,
+                "qualificatif": "Bon",
+                "couleur": "#99E600",
+                "code_zone": "82",
+                "lib_zone": "CA Quimper Bretagne Occidentale"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "airbreizh_ind_prevision_bretagne.fid-50ebcc71_167351cf76d_-1103",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    269961.11069397,
+                    6746307.89925287
+                ]
+            },
+            "geometry_name": "the_geom",
+            "properties": {
+                "date": "2018-11-21T09:00:00Z",
+                "valeur": 4,
+                "qualificatif": "Bon",
+                "couleur": "#C3F000",
+                "code_zone": "36",
+                "lib_zone": "CA Golfe du Morbihan - Vannes"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "airbreizh_ind_prevision_bretagne.fid-50ebcc71_167351cf76d_-1102",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    229772.04043578,
+                    6768639.92668385
+                ]
+            },
+            "geometry_name": "the_geom",
+            "properties": {
+                "date": "2018-11-21T09:00:00Z",
+                "valeur": 4,
+                "qualificatif": "Bon",
+                "couleur": "#C3F000",
+                "code_zone": "56",
+                "lib_zone": "CA Lorient"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "airbreizh_ind_prevision_bretagne.fid-50ebcc71_167351cf76d_-1101",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    338719.75810268,
+                    6844013.78819969
+                ]
+            },
+            "geometry_name": "the_geom",
+            "properties": {
+                "date": "2018-11-21T09:00:00Z",
+                "valeur": 4,
+                "qualificatif": "Bon",
+                "couleur": "#C3F000",
+                "code_zone": "194",
+                "lib_zone": "CA du Pays de Saint-Malo (Saint-Malo Agglomération)"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "airbreizh_ind_prevision_bretagne.fid-50ebcc71_167351cf76d_-1100",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    349555.00704537,
+                    6789093.38652832
+                ]
+            },
+            "geometry_name": "the_geom",
+            "properties": {
+                "date": "2018-11-21T09:00:00Z",
+                "valeur": 4,
+                "qualificatif": "Bon",
+                "couleur": "#C3F000",
+                "code_zone": "1240",
+                "lib_zone": "Rennes Métropole"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "airbreizh_ind_prevision_bretagne.fid-50ebcc71_167351cf76d_-10ff",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    269153.26829935,
+                    6832824.93414115
+                ]
+            },
+            "geometry_name": "the_geom",
+            "properties": {
+                "date": "2018-11-21T09:00:00Z",
+                "valeur": 5,
+                "qualificatif": "Moyen",
+                "couleur": "#FFFF00",
+                "code_zone": "89",
+                "lib_zone": "CA Saint-Brieuc Armor"
+            }
+        }
+    ],
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:EPSG::2154"
+        }
+    }
+}
